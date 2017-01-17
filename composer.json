@@ -1,0 +1,12 @@
+{
+    "name": "hamzaemre/meta.php",
+    "description": "Meta etiketlerinin kolay yönetilebilmesi için ufak bir sınıf.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hamza Emre",
+            "email": "hamzaemre0@gmail.com"
+        }
+    ],
+    "require": {}
+}
