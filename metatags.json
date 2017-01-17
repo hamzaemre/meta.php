@@ -1,0 +1,32 @@
+{
+  "main_path": "/local_folder/",
+
+  "pages": {
+
+
+    "index.php": {
+      "title": "Anasayfa",
+      "meta": {
+        "keywords": "ana sayfa, web sitesi, bla bla",
+        "description": "Ana sayfasının description kısmı..."
+      },
+      "facebook_meta": {
+        "url": "http://www.site.com/index.php",
+        "type": "article",
+        "title": "Facebook Title",
+        "description": "Facebook description...",
+        "image": "http://www.site.com/image.jpg"
+      },
+      "twitter_meta": {
+        "card": "summary_large_image",
+        "site": "@username",
+        "creator": "@username",
+        "title": "Twitter Title",
+        "description": "Twitter description...",
+        "image:src": "http://www.site.com/image.jpg"
+      }
+    }
+
+
+  }
+}

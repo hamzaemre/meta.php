@@ -13,7 +13,7 @@
      *
      * @params
      * Meta tags are read from this file.
-     * Default value: 'meta.json'
+     * Default value: 'metatags.json'
      * */
     private $meta_file;
 
