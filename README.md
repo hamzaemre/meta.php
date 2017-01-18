@@ -1,3 +1,4 @@
+![meta.php](http://i.hizliresim.com/Wgym6P.png)
 # Meta.php
 
 Meta.php ile meta etiketlerini çok basit bir şekilde yönetebilirsiniz.
