@@ -13,7 +13,7 @@ $ composer require hamzaemre/meta.php
 https://github.com/hamzaemre/meta.php/archive/master.zip
 
 # Kullanım
-PHP bilenler için çok basit kullanımı mevcuttur.
+PHP bilenler için çok basit kullanımı mevcuttur. Aşağıdaki kod ile her sayfanın kendine özgü içeriklerini barındıran tek dosyayı okutup yazdırabilirsiniz. Dinamik sayfalarınız için olan kullanım şekli için "Dinamik kullanım" kısmına bakın.
 ```php
 <?php
     // Classımızı dahil ediyoruz.
@@ -22,6 +22,21 @@ PHP bilenler için çok basit kullanımı mevcuttur.
     $meta = new Meta;
     // Daha sonra $meta->Start(); fonksiyonu ile json dosyamızı okutup içindeki gerekli değerleri alıp işliyoruz. Mesela "title", "meta", "facebook meta", "twitter meta"
     $meta->Start();
+```
+# Dinamik kullanım:
+```php
+require_once 'Meta.php';
+require_once 'database.php';
+
+$baslik = $data_row['title']; // Blog yazısı için veritabanından gelen başlık...
+$meta = new Meta;
+$meta->setTitle("Blog yazısı 1"); // 1. örnek
+$meta->setTitle($baslik); // 2. örnek
+
+$meta->setMetaTags(array(
+    "keywords" => "kelime, meta, php, bla bla",
+    "description" => "Açıklama kısmı..."
+));
 ```
 # metatags.json
 ```json
