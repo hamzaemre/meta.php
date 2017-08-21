@@ -2,6 +2,7 @@
     "name": "hamzaemre/meta.php",
     "description": "Meta etiketlerinin kolay yönetilebilmesi için ufak bir sınıf..",
     "type": "library",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Hamza Emre",
