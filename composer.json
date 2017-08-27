@@ -13,7 +13,7 @@
                 "role": "Back-End Developer"
             }
         ],
-    "minimum-stability" : "1.0",
+    "minimum-stability" : "new",
     "require": {
         "php": ">=5.3.0"
     },
