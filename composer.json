@@ -1,14 +1,24 @@
 {
     "name": "hamzaemre/meta.php",
+    "type" : "library",
     "description": "Meta etiketlerinin kolay yönetilebilmesi için ufak bir sınıf..",
-    "type": "library",
+    "keywords": ["php mysql","pdo","mysql","orm class", "orm"],
+    "homepage": "http://www.hamzaemre.com",
+    "license": "MIT",
+    "authors": [
+            {
+                "name": "Hamza Emre",
+                "email": "hamzaemre0@gmail.com",
+                "homepage": "http://www.hamzaemre.com",
+                "role": "Back-End Developer"
+            }
+        ],
     "require": {
         "php": ">=5.3.0"
     },
-    "authors": [
-        {
-            "name": "Hamza Emre",
-            "email": "hamzaemre0@gmail.com"
-        }
-    ]
+    "autoload": {
+        "files": [
+            "Meta.php"
+        ]
+    }
 }
